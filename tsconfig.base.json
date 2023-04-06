@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demoo/front/auth": ["libs/front/auth/src/index.ts"],
+      "@demoo/front/home": ["libs/front/home/src/index.ts"],
+      "@demoo/front/not-found": ["libs/front/not-found/src/index.ts"],
+      "@demoo/front/profile": ["libs/front/profile/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

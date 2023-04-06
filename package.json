@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve front",
-    "build:web": "nx run front:build",
-    "build:android": "nx run front:copy:android",
-    "build:ios": "nx run front:copy:ios"
+    "build": "nx run front:build",
+    "copy:android": "nx run front:copy:android",
+    "format": "nx format:write"
   },
   "private": true,
   "dependencies": {
